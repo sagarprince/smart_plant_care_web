@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1717715979992,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.9f0bb00c27d636ae.js",
+        "/manifest.webmanifest",
+        "/polyfills.f0cc3cbf4867d782.js",
+        "/runtime.98fabd80bab7aa1f.js",
+        "/styles.3179e624bc4d6a1d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/fonts/RedditSans-Bold.ttf",
+        "/assets/fonts/RedditSans-Medium.ttf",
+        "/assets/fonts/RedditSans-Regular.ttf",
+        "/assets/fonts/RedditSans-SemiBold.ttf",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/fonts/RedditSans-Bold.ttf": "9c100a09fcd123605e41a6619e3310f57ff88f4d",
+    "/assets/fonts/RedditSans-Medium.ttf": "f917408d32f78ec2cdd44a14379a4b9db42b1fc0",
+    "/assets/fonts/RedditSans-Regular.ttf": "24417769faf7853c5d1b19dcc085c9d451d303f1",
+    "/assets/fonts/RedditSans-SemiBold.ttf": "b7cb735d1c3a90909a7a34306eeba9b53e1c157e",
+    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "5c53cc95f535c10719817de4a6e168bafa1c99ea",
+    "/main.9f0bb00c27d636ae.js": "25901c69ce8d164eab579ba177c4cc472d684240",
+    "/manifest.webmanifest": "edabf127bde20c4736ef9c2086933045b98f67e3",
+    "/polyfills.f0cc3cbf4867d782.js": "02550c505b7cabfdb79e22a56d5f6befa29964ed",
+    "/runtime.98fabd80bab7aa1f.js": "17e368201dd4c9521e7a40fe0b37c2848f8eae0e",
+    "/styles.3179e624bc4d6a1d.css": "11f17dac341acce730c398ed2a4e1c7dfe2a3332"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
