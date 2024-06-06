@@ -1,0 +1,15 @@
+.smart-plant-care {
+    &-container {
+        max-width: 1024px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    &-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}

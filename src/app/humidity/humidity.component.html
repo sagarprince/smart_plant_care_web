@@ -1,0 +1,14 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="gauge">
+            <div class="gauge__body">
+                <div class="gauge__fill" [ngStyle]="{ 'transform': 'rotate(' + (reading * 1.8) + 'deg)' }">
+                </div>
+                <div class="gauge__cover">{{reading}}%</div>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

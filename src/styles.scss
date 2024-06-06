@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import "fonts.scss";
+
+$fontFamily: "Reddit Sans", "Helvetica Neue", sans-serif;
+
+:root {
+    --mat-menu-divider-color: #e0e2ec;
+}
+
+html {
+    --mat-toolbar-title-text-font: $fontFamily;
+    --mat-divider-color: #e0e2ec;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    font-family: $fontFamily !important;
+    color: #222;
+}
+
+.mat-mdc-slide-toggle {
+    --mat-slide-toggle-label-text-font: : $fontFamily;
+}
+
+.mat-mdc-slide-toggle .mdc-form-field {
+    color: #222;
+}

@@ -1,0 +1,41 @@
+.mat-mdc-card {
+    --mat-card-title-text-font: "Reddit Sans", "Helvetica Neue", sans-serif;
+    background-color: white;
+    position: relative;
+    height: 100%;
+}
+
+.thermometer {
+    width: 20px;
+    height: 200px;
+    background: linear-gradient(to top, #dde9c7, #7bae7f);
+    border: 1px solid #7bae7f;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+}
+.mercury {
+    width: 100%;
+    background: linear-gradient(to top, #ff7f0e, #e76f51);
+    position: absolute;
+    bottom: 0;
+    transition: height 0.5s;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 0 10px rgba(255, 127, 14, 0.3);
+}
+.temperature-value {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: bottom 0.5s liinear 0s;
+}

@@ -1,0 +1,11 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="thermometer">
+            <div class="mercury" [ngStyle]="{ 'height': reading + '%' }"></div>
+        </div>
+        <div class="temperature-value" [ngStyle]="{ 'bottom': (reading+2) + '%' }">{{reading}}°C</div>
+    </mat-card-content>
+</mat-card>
